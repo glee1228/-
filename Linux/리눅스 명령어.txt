@@ -1,0 +1,122 @@
+이것이 리눅스다
+
+-종료 명령어
+1. shutdown -P now
+2. halt -p
+3. init 0
+
+-시스템 재부팅
+1. shutdown -r now 
+2. reboot
+3. init 6
+
+-로그아웃
+1. logout
+2. exit
+
+-종료 상세 명령
+1. shutdown -P now
+2. shutdown -P +10 : 10분 후 종료
+3. shutdown -r 22:00 : 오후 10시에 종료
+4. shutdown -c : shutdown 취소
+5. shutdown -k +15 : 15분 후에 종료 된다는 메세지 보냄( 실제 종료 안됌)
+6. halt -p
+7. init 0
+
+-재시작 상세 명령
+1.shutdown -r now
+2. shutdown -r 22:00 : 오후 10시에 재시작
+3. reboot
+4. init 6
+
+-CentOS는 총 6개의 가상 콘솔 제공
+Ctrl + Alt + F2~F6( F1은 X윈도우 모드)
+
+-Runlevel(런레벨) 
+런레벨 모드 확인은 ls -l /etc/systemd/system디렉터리의 default.target이 링크하고 있는 모드를 확인
+ 
+어떤 런레벨을 링크하고 있는지를 확인하면 된다.
+0: Power off 종료모드
+1: Rescue 시스템 복구모드
+2: Multi User X
+3: Multi User 텍스트모드의 다중 사용자 모드
+4: Multi User X
+5: Graphical 그래픽 모드의 다중 사용자 모드
+6: Reboot 
+
+-Runlevel 변경
+
+ln -sf /lib/systemd/system/multi-user.target /etc/systemd/system/default.target
+-> multi-user.target을 default.target에게 링크하게 한다.
+
+- text모드 부팅하는 법
+명령어 : startx
+
+-자동완성 하는 법
+파일 명의 일부만 입력한 후에 Tab 키를 눌러 나머지 파일명을 자동으로 완성하는 기능을 말함.
+cd /etc/sysconfig/network-scripts/ 를 입력하려면,  ->  cd /dt[tab키] sysco[tab키] network[tab키]
+
+-도스키
+1.이전실행 명령어, 다음실행 명령어 방향키 위아래 버튼으로 재사용 가능
+2.history : 지난 히스토리 확인하는 명령어 
+3.history 삭제 : history -c
+
+-기존 장치 제거
+umount /dev/cdrom
+
+-마운트 cd/dvd 사용 
+/run/media 
+
+-iso 파일 생성
+genisoimage -r -J -o test1.iso /boot  -> /boot 디렉토리를 test1.iso로 생성
+
+-이미지 파일 제작 패키지 설치 방법
+rpm -qa genisoimage
+rpm -qa wodim
+rpm -qa dvd+rw-tools
+
+-이미지 mount 방법
+1. mkdir /media/iso
+2. mount -o loop test1.iso /media/iso
+3. ls -l /media/iso
+4. ls -l /boot
+
+-파일 종류 확인 :file 명령
+file .bash-profile
+file 다운로드
+file /usr/bin/ls
+
+-경로명 
+1. 절대 경로
+2. 상대 경로
+
+-홈디렉토리 이동 법
+1. cd /home/user이름
+2. cd ~
+3. cd 
+
+-현재 디렉토리 내용 확인 : ls
+
+-숨김 파일 확인 : ls -a
+
+-파일의 종류 표시 : ls -F
+
+-숨김 파일 확인 및 종류 표시 : ls -aF
+
+-상세 정보 출력 : ls -l
+
+-디렉토리 자체 정보 확인 : ls -d
+
+-ls 명령의 심벌릭 링크 : dir,vdir
+
+-디렉토리 만들기 : mkdir
+
+-중간 디렉토리 자동으로 생성 : mkdir -p
+
+-현재 디렉토리 위치 확인 : pwd ( print working directory)
+
+-디렉토리 삭제하기 : rmdir -> 디렉토리 비어있지 않으면 삭제 불가
+
+-텍스트 파일 내용 확인 : cat [옵션]  파일명.. 
+
+
