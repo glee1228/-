@@ -150,3 +150,31 @@ ln -s 원본파일명 링크명 : 링크명으로 원본파일을 가리키는 심볼릭 링크 생성
 데이터의 위치만 (Inode)를 통해 가리키고 있으며 별도의 데이터를 저장하지 않기 때문에 용량을 차지하지 않는다.
 5. 디렉터리에 심벌릭 링크 생성 가능
 6. 파일시스템이 달라도 심벌릭 링크 생성 가능
+
+-명령의 위치 찾기 : where is 
+ex) whereis ls , whereis mv
+
+-명령의 위치 찾기 2: which 
+ex) which ls, which mv
+
+-vi 명령어
+u : 명령 취소(되돌리기)
+shift + d : 해당 행 삭제
+i : insert 진입
+yy : 커서가 위치한 행 복사
+p : 커서가 위치한 행의 아래쪽에 붙인다.
+P : 커서가 위치한 행의 위쪽에 붙인다.
+dd : 커서가 위치한 행 잘라내기
+shift + v +화살표 : 터미널 블록 지정
+
+
+useradd : 새로운 사용자를 추가
+# useradd newuser
+passwd : 사용자의 비밀번호를 지정하거나 변경
+# passwd newuser
+usermod : 사용자의 속성을 변경
+# usermod -g root newuser
+userdel : 사용자를 삭제
+# userdel newuser
+
+
