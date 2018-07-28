@@ -18,6 +18,7 @@ public class Question1 {
 		menu = sc.nextInt();
 		switch (menu) {
 		case 1:
+			System.out.println("숫자를 입력하세요");
 			num1 = sc.nextInt();
 			System.out.println(sumofdigits(num1));
 			break;
