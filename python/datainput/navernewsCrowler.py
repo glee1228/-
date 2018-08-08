@@ -10,7 +10,7 @@ query='&query='+urllib.parse.quote_plus(str(input("검색어를 입력하세요:
 fullURL= defaultURL+sort+start+display+query
 print(fullURL)
 txtname=str(input("만들 .txt 이름을 입력하세요: "))
-file = open("C:\\parser\\"+txtname+".txt","w",encoding='utf-8')
+file = open("C:\\parser\\"+txtname+".txt","a",encoding='utf-8')    #append writing모드
 headers={
     'Host':'openapi.naver.com',
     'User-Agent':'*/*',
