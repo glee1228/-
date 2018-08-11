@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e349e820-9ed6-4bbb-8bed-38b0e977c05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/naverMovieCrawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pelicana_Store_Crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataFrame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataFrame/DataFrame1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataFrame/DataFrame1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/crowler$DataFrame2.coverage" NAME="DataFrame2 Coverage Results" MODIFIED="1533899816232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DataFrame" />
+    <SUITE FILE_PATH="coverage/crowler$DataFrame1.coverage" NAME="DataFrame1 Coverage Results" MODIFIED="1533901991137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DataFrame" />
     <SUITE FILE_PATH="coverage/crowler$LatlngToRoadName.coverage" NAME="LatlngToRoadName Coverage Results" MODIFIED="1533716444532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crowler$eungdapso_seoul.coverage" NAME="eungdapso_seoul Coverage Results" MODIFIED="1533779943941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crowler$navermapCrawler.coverage" NAME="navermapCrawler Coverage Results" MODIFIED="1533779881854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crowler$pelicana_Store_Crawler.coverage" NAME="pelicana_Store_Crawler Coverage Results" MODIFIED="1533782541055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crowler$naverMovieCrawler.coverage" NAME="naverMovieCrawler Coverage Results" MODIFIED="1533795028953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crowler$NearRoadNameCrawler.coverage" NAME="NearRoadNameCrawler Coverage Results" MODIFIED="1533986199359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="231822450">
@@ -79,14 +83,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="95874473">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2724" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2724" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navermapCrawler.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NearRoadNameCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="342">
+              <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -95,12 +129,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eungdapso_seoul.py">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/pandas/core/indexing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="45655">
+              <caret line="2008" selection-start-line="2008" selection-end-line="2008" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/pandas/core/series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pelicana_Store_Crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1043">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="736">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -118,11 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/naverMovieCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-643">
-              <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="1840">
+              <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1533795028929" expanded="true" signature="571:576" ph="..." />
@@ -150,10 +226,12 @@
       <find>url1</find>
       <find>get_text</find>
       <find>spectator</find>
+      <find>couont</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,6 +242,9 @@
         <option value="$PROJECT_DIR$/eungdapso_seoul.py" />
         <option value="$PROJECT_DIR$/pelicana_Store_Crawler.py" />
         <option value="$PROJECT_DIR$/naverMovieCrawler.py" />
+        <option value="$PROJECT_DIR$/../DataFrame/DataFrame2.py" />
+        <option value="$PROJECT_DIR$/../DataFrame/DataFrame1.py" />
+        <option value="$PROJECT_DIR$/NearRoadNameCrawler.py" />
       </list>
     </option>
   </component>
@@ -174,8 +255,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
-    <option name="width" value="1117" />
+    <option name="x" value="-7" />
+    <option name="width" value="1561" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -189,6 +270,10 @@
           <expand>
             <path>
               <item name="crowler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crowler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crowler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -200,7 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataFrame/DataFrame3.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -217,8 +302,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.naverMovieCrawler">
-    <configuration name="LatlngToRoadName" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.NearRoadNameCrawler">
+    <configuration name="DataFrame1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crowler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +311,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DataFrame" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LatlngToRoadName.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DataFrame/DataFrame1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +325,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eungdapso_seoul" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataFrame2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crowler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DataFrame" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DataFrame/DataFrame2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NearRoadNameCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crowler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +360,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eungdapso_seoul.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NearRoadNameCrawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,28 +383,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naverMovieCrawler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="navermapCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crowler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/navermapCrawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,19 +414,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LatlngToRoadName" />
-      <item itemvalue="Python.navermapCrawler" />
-      <item itemvalue="Python.eungdapso_seoul" />
       <item itemvalue="Python.pelicana_Store_Crawler" />
       <item itemvalue="Python.naverMovieCrawler" />
+      <item itemvalue="Python.NearRoadNameCrawler" />
+      <item itemvalue="Python.DataFrame1" />
+      <item itemvalue="Python.DataFrame2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NearRoadNameCrawler" />
+        <item itemvalue="Python.DataFrame1" />
+        <item itemvalue="Python.DataFrame2" />
         <item itemvalue="Python.naverMovieCrawler" />
         <item itemvalue="Python.pelicana_Store_Crawler" />
-        <item itemvalue="Python.eungdapso_seoul" />
-        <item itemvalue="Python.navermapCrawler" />
-        <item itemvalue="Python.LatlngToRoadName" />
       </list>
     </recent_temporary>
   </component>
@@ -359,9 +444,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="0" width="1117" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1561" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11825922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15456362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,64 +485,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exampleChrome.py">
+    <entry file="file://$PROJECT_DIR$/../../../../2018SW해커톤경진대회/track/track-info-app-master/academid-back/funcTest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../2018SW해커톤경진대회/track/track-info-app-master/academid-back/app.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/requests/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="939" selection-start-line="939" selection-end-line="939" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LatlngToRoadName.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="186">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navermapCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="152">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eungdapso_seoul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exampleChrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LatlngToRoadName.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NearRoadNameCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eungdapso_seoul.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/pandas/core/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="45655">
+          <caret line="2008" selection-start-line="2008" selection-end-line="2008" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/mulcam/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../2018SW해커톤경진대회/track/track-info-app-master/academid-back/funcTest.py">
+    <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="92">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../2018SW해커톤경진대회/track/track-info-app-master/academid-back/app.py">
+    <entry file="file://$PROJECT_DIR$/../DataFrame/DataFrame1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="276">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pelicana_Store_Crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="736">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -466,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/naverMovieCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="1840">
+          <caret line="87" column="40" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1533795028929" expanded="true" signature="571:576" ph="..." />
