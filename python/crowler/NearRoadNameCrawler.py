@@ -7,7 +7,7 @@ import json
 from itertools import count
 import pandas as pd
 def get_save_path():  # 패스를 저장해주는 함수
-    save_path = "C:\\parser\RoadParserData_Korea3.csv"
+    save_path = "C:\\parser\RoadTest.csv"
     # 저장할 위치와 파일명 적기
     save_path = save_path.replace("\\", "/")
     # /이게 있을경우 파이썬 에서 쓰는 \\ 의 형태로 만들어서 경로를 지정해준다.
@@ -73,7 +73,7 @@ def writeData(jsonResult,lat,lng):
 
 def main():
     carAccident_in_Korea = pd.read_csv("C:\\parser\CarAccident_Korea_since_2012.csv", thousands=',',encoding='utf-8')
-    idx=12490
+    idx=0
     while True:
 
         bEnd = True
@@ -94,7 +94,7 @@ def main():
 
         if bEnd == True:
             return
-        if idx==12505:
+        if idx==5:
             return
 
 
